@@ -5,6 +5,14 @@ function arrOrder(a, b) {
     return b - a;
 }
 
+function arrOrder2(a, b) {
+    return a - b;
+}
+
 arr1.join();
 arr1.sort(arrOrder);
 console.log(arr1);
+
+arr2.join()
+arr2.sort(arrOrder2);
+console.log(arr2);
